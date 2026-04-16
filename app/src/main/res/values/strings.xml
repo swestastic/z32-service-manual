@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Z32 Service Manual</string>
+    <string name="select_document">Select a document to view:</string>
+    <string name="page_info">Page %1$d of %2$d</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="go_to_page">Go to Page</string>
+    <string name="exit_to_menu">Exit to Menu</string>
+    <string name="pdf_loaded">PDF loaded: %d pages</string>
+    <string name="invalid_page">Invalid page number</string>
+    <string name="enter_valid_number">Please enter a valid number</string>
+    <string name="max_zoom">Maximum zoom reached</string>
+    <string name="min_zoom">Minimum zoom reached</string>
+</resources>

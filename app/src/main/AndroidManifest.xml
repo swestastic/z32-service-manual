@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.z32.servicemanual">
+    
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    
+    <application
+        android:allowBackup="true"
+        android:label="Z32 Service Manual"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true"
+        tools:replace="android:theme">
+        
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Z32 Service Manual">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- PDF Viewer Activity -->
+        <activity
+            android:name=".PdfViewerActivity"
+            android:exported="false"
+            android:label="PDF Viewer"
+            android:screenOrientation="portrait" />
+        
+    </application>
+    
+</manifest>

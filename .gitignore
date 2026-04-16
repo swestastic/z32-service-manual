@@ -1,0 +1,31 @@
+# Android/Gradle build outputs
+.gradle/
+build/
+**/build/
+captures/
+
+# Local SDK and machine-specific configuration
+local.properties
+
+# IDE files
+.idea/
+*.iml
+
+# Signing keys and local key material
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+key
+
+# APK/AAB artifacts
+*.apk
+*.ap_
+*.aab
+output-metadata.json
+
+# Logs and OS artifacts
+*.log
+.DS_Store
+Thumbs.db
